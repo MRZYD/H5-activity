@@ -1,0 +1,241 @@
+* {margin:0; padding:0;}
+body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";background: #fff;}
+
+.banner-box{
+    width: 100%;
+    height: 25.88rem;
+    background-image: url('../img/banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.banner-tit{
+    width: 100%;
+    font-size: 1.436rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.banner-tit1{
+    width: 100%;
+    font-size: 1.34rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.banner-tit-top{
+    padding-top: 3.73rem;
+}
+
+.banner-txt{
+    width: 100%;
+    font-size: 0.814rem;
+    color: #DFE4FF;
+    text-align: center;
+    margin: 0;
+    line-height: 1.316rem;
+}
+
+.banner-txt-top{
+    margin-top: 0.862rem;
+}
+
+.banner-btn{
+    width: 9.287rem;
+    height: 2.274rem;
+    border-radius: 0.22rem;
+    margin: 1.628rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF7177;
+    font-size: 0.718rem;
+    color: #fff;
+    border: 0;
+}
+
+.section-one, .section-two{
+    width: 100%;
+}
+
+.one-head{
+    width: 100%;
+    height: 6.199rem;
+    position: relative;
+}
+
+.one-h-box {
+    width: 100%;
+    padding-top: 1.915rem;
+}
+
+.one-h-tit{
+    color: #191935;
+    font-size: 1.197rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.one-h-img{
+    width: 2.011rem;
+    height: 2.011rem;
+    position: absolute;
+    top: 1.508rem;
+    right: 1.436rem;
+}
+
+.one-sec{
+    width: 16.037rem;
+    height: 8.904rem;
+    margin: 0 auto;
+    background-image: url('../img/sec-one-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.one-sec ul{
+    width: 100%;
+    padding-top: 0.91rem;
+}
+
+.one-sec ul li {
+    font-size: 0.622rem;
+    color: #fff;
+    line-height: 1.388rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.838rem;
+}
+
+.one-sec ul li span{
+    width: 0.383rem;
+    height: 0.383rem;
+    border-radius: 100%;
+    display: inline-block;
+    background: #D2D2D2;
+    margin-right: 0.431rem;
+}
+
+.two-head{
+    width: 100%;
+    height: 4.237rem;
+}
+
+.two-head .two-h-tit{
+    width: 100%;
+    text-align: center;
+    font-size: 1.125rem;
+    color: #FF484F;
+    padding-top: 0.622rem;
+    font-weight: 600;
+}
+
+.two-head .two-h-txt{
+    width: 11.896rem;
+    height: 0.91rem;
+    color: #393939;
+    font-size: 0.646rem;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 0.263rem;
+}
+
+.two-h-txt span{
+    color: #FF484F;
+}
+
+.two-h-txt::before{
+    content: '';
+    width: 0.91rem;
+    height: 3px;
+    background: #D8D8D8;
+    border-radius: 1.5px;
+    position: absolute;
+    left: -1.2rem;
+    top: 0.455rem;
+}
+
+.two-h-txt::after{
+    content: '';
+    width: 0.91rem;
+    height: 3px;
+    background: #D8D8D8;
+    border-radius: 1.5px;
+    position: absolute;
+    right: -1.2rem;
+    top: 0.455rem;
+}
+
+.two-sec{
+    padding: 0 1rem;
+}
+
+.select-tit{
+    width: 100%;
+    font-size: 0.718rem;
+    color: #393939;
+    font-weight: 700;
+}
+
+.select-tit span{
+    color: #FF484F;
+}
+
+.select-box {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 0.646rem;
+}
+
+.select-li {
+    width: 7.181rem;
+    float: left;
+    margin-bottom: 0.694rem;
+    font-size: 0.67rem;
+    color: #FF484F;
+    display: flex;
+    align-items: center;
+}
+
+input.checkbox[type="checkbox"]{
+    width:0rem;
+    height:0rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle; 
+    line-height: 0.67rem;
+    position: relative;
+    margin: 0 0.622rem 0 0.335rem;
+}
+input.checkbox[type="checkbox"]::before{
+    content: "";
+    position: absolute;
+    top: -0.335rem;
+    left: -0.335rem;
+    background: #fff;
+    width: 0.67rem;
+    height: 0.67rem;
+    border: 1px solid #8792A2;
+    border-radius: 100%;
+}
+input.checkbox[type="checkbox"]:checked::before{
+    content: "\2022";
+    background-color: #fff;
+    position: absolute;
+    top: -0.335rem;
+    left: -0.335rem;
+    width:0.67rem;
+    height: 0.67rem;
+    border: 1px solid #FF484F;
+    color:#FF484F;
+    font-size: 35px;
+    line-height: 0.67rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
