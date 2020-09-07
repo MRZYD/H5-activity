@@ -15,18 +15,20 @@
         <!-- !!!注意 minimal-ui 是IOS7.1的新属性，最小化浏览器UI -->
         <meta name="format-detection" content="telephone=no,email=no,date=no,aItemress=no">
         <!-- MSUI CSS ================================================== -->
+        <!-- <link rel="stylesheet" href="https://static.268xue.com/front/mobile/v3/wmui/0.6.2/css/wm.min.css?v=1598349572754"> -->
+        <!-- <link rel="stylesheet" href="https://static.268xue.com/front/mobile/v3/wmui/0.6.2/css/wm-extend.min.css?v=1598349572754"> -->
         <link rel="stylesheet" href="./css/public.css">
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        <section>
+        <section class="section">
             <div class="banner-box">
                 <h2 class="banner-tit banner-tit-top">教育机构 直播/录播课堂</h2>
                 <h2 class="banner-tit1">帮您搭建独立线上网校</h2>
                 <p class="banner-txt banner-txt-top">独立品牌，专属域名</p>
                 <p class="banner-txt">私有部署，量身定制，开放源代码</p>
                 <p class="banner-txt">支持APP/小程序/H5网校和PC网校切换</p>
-                <button  class="banner-btn">免费获取试用账号</button>
+                <button  class="banner-btn" onclick="openPopup()">免费获取试用账号</button>
             </div>  
             <div class="section-one">
                 <div class="one-head">
@@ -54,8 +56,159 @@
                     <h5 class="select-tit">您想通过268网校解决哪些问题？<span>*</span></h5>
                     <div class="select-box" id="selectPath"></div>
                 </div>
+                <div class="two-form">
+                    <form action="">
+                        <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
+                        <div class="two-input-box">
+                            <input class="two-form-input" maxlength="11" oninput="telOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <span class="form-must" id="formMust">(必填)</span>
+                        </div>
+                        <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
+                        <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
+                    </form>
+                </div>
+            </div>
+            <div class="section-thr">
+                <h2 class="sec-title">直播授课/录播网校全部覆盖</h2>
+                <p class="sec-text">应用于教育机构线上授课，<br>直播教学，课堂互动，老师讲课等在线场景</p>
+                <ul class="sec-thr-ul">
+                    <li><img src="./img/video-pic1.png" alt=""><span>直播授课</span></li>
+                    <li><img src="./img/video-pic2.png" alt=""><span>录播网校</span></li>
+                    <li><img src="./img/video-pic3.png" alt=""><span>互动小班课</span></li>
+                    <li><img src="./img/video-pic4.png" alt=""><span>大班直播课</span></li>
+                </ul>
+            </div>
+            <div class="section-four">
+                <h2 class="sec-title">智能考试/在线题库搞定考试</h2>
+                <p class="sec-text">稳定安全的网校题库系统，随时随地<br>搞定考试，有效降低人工成本，效率高N倍。</p>
+                <div class="sec-four-box">
+                    <ul class="sec-four-ul">
+                        <li><i></i><span>课后练习</span></li>
+                        <li><i></i><span>错题收藏</span></li>
+                        <li><i></i><span>仿真考试</span></li>
+                        <li><i></i><span>自动阅卷</span></li>
+                        <li><i></i><span>试卷出售</span></li>
+                        <li><i></i><span>能力评估</span></li>
+                    </ul>
+                    <img class="sec-four-img" src="./img/tiku-pic.png" alt="">
+                </div>
+            </div>
+            <div class="section-five">
+                <h2 class="sec-title">多端网校/随时随地移动学习</h2>
+                <p class="sec-text">支持微信小程序，APP，PC网校等多终端自由选择</p>
+                <div class="sec-five-label">
+                    <span>微信网校</span>
+                    <span>APP网校</span>
+                    <span>PC网校</span>
+                    <span>小程序</span>
+                </div>
+                <img src="./img/school-type-pic.png" alt="" class="sec-five-pic">
+            </div>
+            <div class="section-six">
+                <h2 class="sec-six-tit">诚邀请您免费体验线上网校</h2>
+                <p class="sec-six-txt">试用过程中有任何问题均可致电</p>
+                <p class="sec-six-tel">联系我们: 400-0620-268</p>
+                <ul class="sec-six-ul">
+                    <li><i></i><span>录播收费，直播引流</span></li>
+                    <li><i></i><span>提高招生，增加营收</span></li>
+                    <li><i></i><span>线上和线下结合教学</span></li>
+                    <li><i></i><span>打破时间和地域限制</span></li>
+                </ul>
+            </div>
+            <div class="section-seven">
+                <div class="two-head">
+                    <h2 class="two-h-tit seven-tit">获取在线教育通用解决方案</h2>
+                    <p class="two-h-txt">试用成功即可获取<span>2020</span>在线教育<span>通用方案</span></p>
+                </div>
+                <div class="two-sec">
+                    <h5 class="select-tit">您在做什么类型的培训？<span>*</span></h5>
+                    <div class="select-radio-box" id="selectTrain"></div>
+                </div>
+                <div class="two-form">
+                    <form action="">
+                        <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
+                        <div class="two-input-box">
+                            <input class="two-form-input" maxlength="11" oninput="telOnclickTwo(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <span class="form-must" id="formMustTwo">(必填)</span>
+                        </div>
+                        <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
+                        <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
+                    </form>
+                </div>
+            </div>
+            <div class="section-eight">
+                <h2 class="sec-egh-tit">培训机构开展在线教育首选</h2>
+                <p class="sec-egh-ftxt">超<span>15000</span>家机构选择268网校服务</p>
+                <p class="sec-egh-txt">我们的客户分布在金融、司法、语言、医学、工程、传媒、艺术等各类领域。</p>
+                <ul class="sec-egh-ul">
+                    <li>
+                        <img src="./img/edu-pic1.png" alt="">
+                        <p>广联达建筑课堂</p>
+                        <span>行业：职业教育</span>
+                    </li>
+                    <li>
+                        <img src="./img/edu-pic2.png" alt="">
+                        <p>大牛教育</p>
+                        <span>行业：工程培训</span>
+                    </li>
+                    <li>
+                        <img src="./img/edu-pic3.png" alt="">
+                        <p>共享工业云</p>
+                        <span>行业：职业教育</span>
+                    </li>
+                    <li>
+                        <img src="./img/edu-pic4.png" alt="">
+                        <p>美亚学院</p>
+                        <span>行业：工程培训</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-nine">
+                <h2 class="sec-nine-title">搭建网校课堂<br>快速开展在线业务</h2>
+                <div class="sec-nine-btn" onclick="openPopup()">点击立即体验</div>
+                <div class="sec-nine-tel">
+                    <img src="./img/tel-icon.png" alt="">
+                    <span>400-0620-268</span>
+                </div>
+            </div>
+            <div class="section-btn">
+                <div class="sec-btn-box btn-red">
+                    <img src="./img/kefu-icon.png" alt="">
+                    <span>在线咨询</span>
+                </div>
+                <div class="sec-btn-box btn-blue">
+                    <img src="./img/person-icon.png" alt="">
+                    <span onclick="openPopup()">免费体验</span>
+                </div>
             </div>
         </section>
+        <div class="form-popup-bg" id="popupBg">
+            <div class="form-popup-sec">
+                <img class="close-icon" onclick="closePopup()" src="./img/popup-close-icon.png" alt="关闭">
+                <h2 class="popup-title">在线开通 免费体验</h2>
+                <p class="popup-txt">注册成功即可线上体验产品，创建专属网校<br>售卖录播课程，在线直播授课</p>
+                <ul class="popup-ul">
+                    <li>职业培训</li>
+                    <li>留学语言</li>
+                    <li>K12教育</li>
+                    <li>金融会计</li>
+                    <li>司法医学</li>
+                    <li>政府高校</li>
+                </ul>   
+                <div class="popup-form">
+                    <form action="">
+                        <input class="popup-form-input nameInput" type="text" placeholder="您的称呼">
+                        <div class="two-input-box">
+                            <input class="popup-form-input" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <span class="form-must" id="formMustPopup">(必填)</span>
+                        </div>
+                        <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
+                        <input type="submit" value="免费领取方案和试用账号" class="popup-form-btn" />
+                    </form>
+                </div>
+            </div>
+
+        </div>
         <script src="./js/index.js"></script>
     </body>
 </html>
