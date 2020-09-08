@@ -2,12 +2,12 @@
 body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";background: #fff;}
 
 .section{
-    padding-bottom: 3.54rem;
+    padding-bottom: 1.96rem;
 }
 
 .banner-box{
     width: 100%;
-    height: 25.88rem;
+    height: 14.41rem;
     background-image: url('../img/banner-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -16,7 +16,7 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .banner-tit{
     width: 100%;
-    font-size: 1.436rem;
+    font-size: 0.8rem;
     color: #fff;
     text-align: center;
     font-weight: 400;
@@ -24,39 +24,39 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .banner-tit1{
     width: 100%;
-    font-size: 1.34rem;
+    font-size: 0.75rem;
     color: #fff;
     text-align: center;
     font-weight: 400;
 }
 
 .banner-tit-top{
-    padding-top: 3.73rem;
+    padding-top: 2.08rem;
 }
 
 .banner-txt{
     width: 100%;
-    font-size: 0.814rem;
+    font-size: 0.45rem;
     color: #DFE4FF;
     text-align: center;
     margin: 0;
-    line-height: 1.316rem;
+    line-height: 0.73rem;
 }
 
 .banner-txt-top{
-    margin-top: 0.862rem;
+    margin-top: 0.48rem;
 }
 
 .banner-btn{
-    width: 9.287rem;
-    height: 2.274rem;
-    border-radius: 0.22rem;
-    margin: 1.628rem auto 0;
+    width: 5.17rem;
+    height: 1.27rem;
+    border-radius: 0.12rem;
+    margin: 0.91rem auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #FF7177;
-    font-size: 0.718rem;
+    font-size: 0.4rem;
     color: #fff;
     border: 0;
 }
@@ -67,33 +67,33 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .one-head{
     width: 100%;
-    height: 6.199rem;
+    height: 3.47rem;
     position: relative;
 }
 
 .one-h-box {
     width: 100%;
-    padding-top: 1.915rem;
+    padding-top: 1.07rem;
 }
 
 .one-h-tit{
     color: #191935;
-    font-size: 1.197rem;
+    font-size: 0.67rem;
     text-align: center;
     font-weight: 800;
 }
 
 .one-h-img{
-    width: 2.011rem;
-    height: 2.011rem;
+    width: 1.12rem;
+    height: 1.12rem;
     position: absolute;
-    top: 1.508rem;
-    right: 1.436rem;
+    top: 0.84rem;
+    right: 0.8rem;
 }
 
 .one-sec{
-    width: 16.037rem;
-    height: 8.904rem;
+    width: 8.93rem;
+    height: 4.96rem;
     margin: 0 auto;
     background-image: url('../img/sec-one-bg.png');
     background-repeat: no-repeat;
@@ -103,49 +103,49 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .one-sec ul{
     width: 100%;
-    padding-top: 0.91rem;
+    padding-top: 0.51rem;
 }
 
 .one-sec ul li {
-    font-size: 0.622rem;
+    font-size: 0.35rem;
     color: #fff;
-    line-height: 1.388rem;
+    line-height: 0.77rem;
     display: flex;
     align-items: center;
-    padding-left: 0.838rem;
+    padding-left: 0.47rem;
 }
 
 .one-sec ul li span{
-    width: 0.383rem;
-    height: 0.383rem;
+    width: 0.21rem;
+    height: 0.21rem;
     border-radius: 100%;
     display: inline-block;
     background: #D2D2D2;
-    margin-right: 0.431rem;
+    margin-right: 0.24rem;
 }
 
 .two-head{
     width: 100%;
-    height: 4.237rem;
+    height: 2.36rem;
 }
 
 .two-head .two-h-tit{
     width: 100%;
     text-align: center;
-    font-size: 1.125rem;
+    font-size: 0.63rem;
     color: #FF484F;
-    padding-top: 0.622rem;
+    padding-top: 0.35rem;
     font-weight: 600;
 }
 
 .two-head .two-h-txt{
-    width: 11.896rem;
-    height: 0.91rem;
+    width: 6.63rem;
+    height: 0.51rem;
     color: #393939;
-    font-size: 0.646rem;
+    font-size: 0.36rem;
     margin: 0 auto;
     position: relative;
-    margin-top: 0.263rem;
+    margin-top: 0.15rem;
 }
 
 .two-h-txt span{
@@ -154,33 +154,33 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .two-h-txt::before{
     content: '';
-    width: 0.91rem;
+    width: 0.51rem;
     height: 3px;
     background: #D8D8D8;
     border-radius: 1.5px;
     position: absolute;
-    left: -1.2rem;
-    top: 0.4rem;
+    left: -0.7rem;
+    top: 0.2rem;
 }
 
 .two-h-txt::after{
     content: '';
-    width: 0.91rem;
+    width: 0.51rem;
     height: 3px;
     background: #D8D8D8;
     border-radius: 1.5px;
     position: absolute;
-    right: -1.2rem;
-    top: 0.4rem;
+    right: -0.7rem;
+    top: 0.2rem;
 }
 
 .two-sec{
-    padding: 0 1rem;
+    padding: 0 0.59rem;
 }
 
 .select-tit{
     width: 100%;
-    font-size: 0.718rem;
+    font-size: 0.4rem;
     color: #393939;
     font-weight: 700;
 }
@@ -197,29 +197,29 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .select-radio-box{
     width: 100%;
-    padding-top: 0.646rem;
+    padding-top: 0.36rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .select-checkbox-li {
-    width: 7.181rem;
+    width: 4rem;
     float: left;
-    margin-bottom: 0.694rem;
-    font-size: 0.67rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.37rem;
     color: #FF484F;
     display: flex;
     align-items: center;
 }
 
 .select-radio-li {
-    margin-bottom: 0.694rem;
-    font-size: 0.67rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.37rem;
     color: #FF484F;
     display: inline-flex;
     align-items: center;
-    margin-right: 1.436rem;
+    margin-right: 0.8rem;
 }
 
 .select-radio-li:nth-child(3n){
@@ -234,16 +234,16 @@ input.checkbox[type="checkbox"], input.radio[type="radio"]{
     vertical-align: middle; 
     line-height: 0.67rem;
     position: relative;
-    margin: 0 0.622rem 0 0.335rem;
+    margin: 0 0.32rem 0 0.23rem;
 }
 input.checkbox[type="checkbox"]::before, input.radio[type="radio"]::before{
     content: "";
     position: absolute;
-    top: -0.335rem;
-    left: -0.335rem;
+    top: -0.2rem;
+    left: -0.2rem;
     background: #fff;
-    width: 0.67rem;
-    height: 0.67rem;
+    width: 0.37rem;
+    height: 0.37rem;
     border: 1px solid #8792A2;
     border-radius: 100%;
 }
@@ -251,14 +251,14 @@ input.checkbox[type="checkbox"]:checked::before, input.radio[type="radio"]:check
     content: "\2022";
     background-color: #fff;
     position: absolute;
-    top: -0.335rem;
-    left: -0.335rem;
-    width:0.67rem;
-    height: 0.67rem;
+    top: -0.2rem;
+    left: -0.2rem;
+    width:0.37rem;
+    height: 0.37rem;
     border: 1px solid #FF484F;
     color:#FF484F;
     font-size: 35px;
-    line-height: 0.67rem;
+    line-height: 11rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -266,25 +266,35 @@ input.checkbox[type="checkbox"]:checked::before, input.radio[type="radio"]:check
 }
 
 .two-form{
-    padding: 0 0.957rem;
+    padding: 0 0.53rem;
 }
 
 .two-input-box{
     width: 100%;
-    height: 2.011rem;
+    height: 1.12rem;
     position: relative;
 }
 
 .two-form-input {
     width: 90%;
-    height: 2.011rem;
+    height: 1.12rem;
     background: #F2F2F2;
     color: #333;
     padding: 0 5%;
     border: 0;
     outline: none;
-    margin-bottom: 0.479rem;
-    font-size: 0.67rem;
+    margin-bottom: 0.27rem;
+    font-size: 0.37rem;
+}
+
+.position-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two-input-box .popup-form-input.position-input{
+    margin: 0;
 }
 
 input.two-form-input::-webkit-input-placeholder{
@@ -293,9 +303,9 @@ input.two-form-input::-webkit-input-placeholder{
 
 .form-must{
     position: absolute;
-    font-size: 0.67rem;
-    left: 4.36rem;
-    line-height: 2.011rem;
+    font-size: 0.37rem;
+    left: 2.43rem;
+    line-height: 1.12rem;
     top: 0;
     display: inline-block;
     color: #FF484F;
@@ -305,53 +315,53 @@ input.two-form-input::-webkit-input-placeholder{
     width: 90%;
     background: #F2F2F2;
     color: #333;
-    padding: 0.527rem 5%;
+    padding: 0.29rem 5%;
     border: 0;
     outline: none;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     font-family: "微软雅黑";
-    margin-top: 0.479rem;
+    margin-top: 0.27rem;
 }
 
 textarea.two-form-area::-webkit-input-placeholder{
     color:#BDBDBD;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     font-family: "微软雅黑";
 }
 
 .two-form-btn{
     width: 100%;
-    height: 2.274rem;
+    height: 1.27rem;
     margin: 0 auto;
     display: block;
     border: 0;
     outline: none;
     background: #FF484F;
     border-radius: 5px;
-    margin-top: 0.479rem;
+    margin-top: 0.28rem;
     color: #fff;
-    font-size: 0.814rem;
-    margin-bottom: 1rem;
+    font-size: 0.45rem;
+    margin-bottom: 0.56rem;
     text-align: center;
-    line-height: 2.274rem;
+    line-height: 1.27rem;
 }
 
 .section-thr {
-    padding: 1.872rem 1.268rem 0;
+    padding: 1.04rem 0.71rem 0;
 }
 
 .sec-title{
-    font-size: 1.197rem;
+    font-size: 0.67rem;
     color: #333333;
     width: 100%;
     font-weight: 800;
-    margin-bottom: 0.598rem;
+    margin-bottom: 0.33rem;
 }
 
 .sec-text {
     width: 100%;
-    line-height: 0.957rem;
-    font-size: 0.67rem;
+    line-height: 0.53rem;
+    font-size: 0.37rem;
     color: #8F8F8F;
 }
 
@@ -360,33 +370,33 @@ textarea.two-form-area::-webkit-input-placeholder{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 0.91rem;
-    padding-bottom: 1.077rem;
+    padding-top: 0.51rem;
+    padding-bottom: 0.60rem;
 }
 
 .sec-thr-ul li {
     /* width: 50%; */
 }
 .sec-thr-ul li img{
-    width: 6.439rem;
-    height: 4.5rem;
+    width: 3.48rem;
+    height: 2.44rem;
     display: block;
 }
 
 .sec-thr-ul li span{
-    width: 6.439rem;
+    width: 3.48rem;
     text-align: center;
-    font-size: 0.766rem;
+    font-size: 0.43rem;
     color: #333333;
     text-align: center;
     display: inline-block;
-    margin: 0.6rem 0 0.838rem;
+    margin: 0.36rem 0 0.47rem;
     font-weight: 800;
 }
 
 .section-four{
-    padding: 1.723rem 1.197rem 0;
-    height: 14.146rem;
+    padding: 0.96rem 0.67rem 0;
+    height: 7.87rem;
     background: #F6F9FF;
 }
 
@@ -394,36 +404,36 @@ textarea.two-form-area::-webkit-input-placeholder{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 1.915rem;
+    margin-top: 1.07rem;
     align-items: center;
 }
 
 .sec-four-ul {
-    width: 17.66rem;
+    width: 5.09rem;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    margin-top: -1.053rem;
+    margin-top: -0.59rem;
 }
 
 .sec-four-ul li {
     display: flex;
     align-items: center;
-    margin-right: 0.91rem;
-    margin-top: 1.053rem;
+    margin-right: 0.51rem;
+    margin-top: 0.59rem;
 }
 .sec-four-ul li i{
-    width: 0.383rem;
-    height: 0.383rem;
+    width: 0.21rem;
+    height: 0.21rem;    
     display: block;
-    margin-right: 0.239rem;
+    margin-right: 0.13rem;
     background: #339BD4;
     border-radius: 100%;
 }
 
 .sec-four-ul li span{
     text-align: center;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #363A44;
     text-align: center;
     display: inline-block;
@@ -431,43 +441,42 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 
 .sec-four-img {
-    width: 7.061rem;
-    height: 4.667rem;
+    width: 3.93rem;
+    height: 2.6rem;
     background: #fff;
 }
 
 .section-five {
-    padding: 1.771rem 0.957rem 2.154rem;
+    padding: 0.98rem 0.53rem 1.2rem;
 }
 
 .sec-five-label{
-    padding: 0.766rem 0 1.173rem;
-    height: 1.173rem;
+    padding: 0.43rem 0 0.65rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .sec-five-label span{
-    padding: 0 0.551rem;
-    height: 1.39rem;
-    line-height: 1.39rem;
+    padding: 0 0.33rem;
+    height: 0.77rem;
+    line-height: 0.77rem;
     color: #3C4DB1;
-    font-size: 0.6rem;
+    font-size: 0.33rem;
     background: rgba(60, 77, 177, 0.1);
-    border-radius: 0.814rem;
+    border-radius: 0.45rem;
     display: block;
 }
 
 .sec-five-pic{
-    width: 16.037rem;
-    height: 9.455rem;
+    width: 8.93rem;
+    height: 5.27rem;
     display: block;
 }
 
 .section-six{
     width: 100%;
-    height: 15.39rem;
+    height: 8.57rem;
     background-image: url('../img/sec-six-bg.png');
     background-size: 100% 100%;
     background-position: center center;
@@ -476,46 +485,47 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 .sec-six-tit {
     width: 100%;
-    font-size: 1.197rem;
-    line-height: 1.676rem;
+    font-size: 0.67rem;
+    line-height: 0.93rem;
     color: #FFFFFF;
     text-align: center;
     font-weight: 600;
-    padding-top: 1.077rem;
+    padding-top: 0.6rem;
 }
 
 .sec-six-txt {
     width: 100%;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #A9B6FF;
     text-align: center;
-    margin-top: 0.335rem;
+    margin-top: 0.19rem;
 }
 
 .sec-six-tel{
     width: 100%;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #FF484F;
     text-align: center;
-    margin-top: 0.3rem;
+    margin-top: 0.17rem;
 }
 
 .sec-six-ul {
     width: 100%;
-    margin-top: 1.915rem;
+    margin-top: 1.06rem;
 }
 
 .sec-six-ul li {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 0.19rem;
 }
 
 .sec-six-ul li i{
-    width: 0.55rem;
-    height: 0.55rem;  
-    margin-left: 0.957rem;
-    margin-right: 0.311rem;
+    width: 0.31rem;
+    height: 0.31rem;  
+    margin-left: 0.53rem;
+    margin-right: 0.17rem;
     background-image: url('../img/xuanzhong-icon.png');
     background-size: 100% 100%;
     background-position: center center;
@@ -523,16 +533,16 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .sec-six-ul li span{
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #B1C5FF;
     letter-spacing: 1px;
 }
 
 .section-seven{
-    width: 16.52rem;
-    height: 22.548rem;
+    width: 9.2rem;
+    height: 12.56rem;
     box-shadow: 0px 0px 10px 2px rgba(108, 134, 150, 0.19);
-    margin: -2.298rem auto 0;
+    margin: -1.24rem auto 0;
     position: relative;
     z-index: 5;
     background: #FFFFFF;
@@ -540,28 +550,28 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .two-head .two-h-tit.seven-tit{
-    padding-top: 0.838rem;
+    padding-top: 0.46rem;
 }
 
 .section-eight{
-    padding: 1.532rem 0.957rem 1.101rem;
+    padding: 0.85rem 0.53rem 0.61rem;
 }
 
 .sec-egh-tit{
-    font-size: 1.197rem;
+    font-size: 0.67rem;
     color: #333333;
     width: 100%;
     font-weight: 800;
-    margin-bottom: 0.359rem;
+    margin-bottom: 0.19rem;
     text-align: center;
 }
 
 .sec-egh-ftxt{
     width: 100%;
     text-align: center;
-    font-size: 0.718rem;
+    font-size: 0.4rem;
     color: #4D4D4D;
-    margin-bottom: 0.407rem;
+    margin-bottom: 0.23rem;
 }
 
 .sec-egh-ftxt span{
@@ -570,7 +580,7 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 .sec-egh-txt {
     width: 100%;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #8F8F8F;
     text-align: center;
 }
@@ -583,32 +593,32 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .sec-egh-ul li {
-    width: 7.588rem;
-    margin-bottom: 0.74rem;
+    width: 4.23rem;
+    margin-bottom: 0.41rem;
 }
 
 .sec-egh-ul li img{
     width: 100%;
-    height: 5.027rem;
+    height: 2.8rem;
 }
 
 .sec-egh-ul li p {
     width: 100%;
-    font-size: 0.766rem;
+    font-size: 0.43rem;
     color: #333333;
-    margin-top: 0.69rem;
+    margin-top: 0.39rem;
 }
 
 .sec-egh-ul li span{
     width: 100%;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #929292;
-    margin-top: 0.26rem;
+    margin-top: 0.12rem;
 }
 
 .section-nine{
     width: 100%;
-    height: 12.64rem;
+    height: 7.04rem;
     background-image: url('../img/section-nine-bg.png');
     background-size: 100% 100%;
     background-position: center center;
@@ -617,23 +627,23 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 .sec-nine-title{
     width: 100%;
-    font-size: 1.149rem;
+    font-size: 0.64rem;
     color: #fff;
-    padding: 2.035rem 0 0;
+    padding: 1.13rem 0 0;
     text-align: center;
     font-weight: 400;
 }
 
 .sec-nine-btn {
-    width: 7.23rem;
-    height: 2.15rem;
+    width: 4.03rem;
+    height: 1.2rem;
     text-align: center;
-    line-height: 2.15rem;
+    line-height: 1.2rem;
     background: #F69D27;
     border-radius: 5px;
     outline: none;
-    margin: 1.077rem auto 1.34rem;
-    font-size: 0.718rem;
+    margin: 0.6rem auto 0.75rem;
+    font-size: 0.4rem;
     color: #fff;
 }
 
@@ -645,20 +655,20 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .sec-nine-tel img{
-    width: 0.74rem;
-    height: 0.67rem;
+    width: 0.41rem;
+    height: 0.37rem;
     display: block;
-    margin-right: 0.55rem;
+    margin-right: 0.31rem;
 }
 
 .sec-nine-tel span {
-    font-size: 0.86rem;
+    font-size: 0.48rem;
     color: #F69D27;
 }
 
 .section-btn{
     width: 100%;
-    height: 2.346rem;
+    height: 1.31rem;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -669,20 +679,20 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 .sec-btn-box {
     width: 50%;
-    height: 2.346rem;
+    height: 1.31rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sec-btn-box img {
-    width: 0.74rem;
-    height: 0.74rem;
-    margin-right: 0.527rem;
+    width: 0.41rem;
+    height: 0.41rem;
+    margin-right: 0.15rem;
 }
 
 .sec-btn-box span{
-    font-size: 0.766rem;
+    font-size: 0.43rem;
     color: #fff;
 }
 
@@ -709,13 +719,13 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .form-popup-sec{
-    width: 16.52rem;
-    height: 21.54rem;
+    width: 9.2rem;
+    height: 12rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -10.77rem;
-    margin-left: -8.26rem;
+    margin-top: -6rem;
+    margin-left: -4.6rem;
     background-image: url('../img/popup-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -723,65 +733,73 @@ textarea.two-form-area::-webkit-input-placeholder{
 }
 
 .close-icon {
-    width: 1.388rem;
-    height: 1.388rem;
+    width: 0.77rem;
+    height: 0.77rem;
     position: absolute;
-    top: -2rem;
-    right: 0.455rem;
+    top: -1rem;
+    right: 0.2rem;
     border-radius: 100%;
 }
 
 .popup-title{
     width: 100%;
-    font-size: 1.436rem;
+    font-size: 0.8rem;
     color: #020516;
     text-align: center;
-    padding-top: 1.173rem;
-    margin-bottom: 0.335rem;
+    padding-top: 0.65rem;
+    margin-bottom: 0.19rem;
 }
 
 .popup-txt{
     width: 100%;
-    font-size: 0.67rem;
+    font-size: 0.37rem;
     color: #6D5F0C;
     text-align: center;
 }
 
 .popup-ul{
-    width: 12.734rem;
+    width: 7.09rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0.622rem auto 0;
+    margin: 0.35rem auto 0;
 }
 
 .popup-ul li{
-    font-size: 0.598rem;
+    font-size: 0.33rem;
     color: #FAD500;
-    width: 3.495rem;
-    height: 1.34rem;
+    width: 1.95rem;
+    height: 0.75rem;
     text-align: center;
-    line-height: 1.34rem;
+    line-height: 0.75rem;
     background: #1B1A22;
-    border-radius: 0.814rem;
-    margin-bottom: 0.38rem;
+    border-radius: 0.37rem;
+    margin-bottom: 0.21rem;
 }
 
 .popup-form{
-    width: 14.697rem;
-    margin: 1.628rem auto 0;
+    width: 8.19rem;
+    margin: 0.91rem auto 0;
+}
+
+.popup-form .two-input-box{
+    margin-bottom: 0.53rem;
+}
+
+.popup-form .two-input-box:nth-child(2){
+    margin-bottom: 0;
 }
 
 .popup-form-input {
     width: 90%;
-    height: 2.011rem;
+    height: 1.12rem;
     background: #fff;
     color: #333;
     padding: 0 5%;
     border: 0;
     outline: none;
-    margin-bottom: 0.957rem;
-    font-size: 0.67rem;
+    margin: 0;
+    font-size: 0.37rem;
     border: 1px solid #979797;
     border-radius: 5px;
 }
@@ -792,21 +810,22 @@ input.popup-form-input::-webkit-input-placeholder{
 
 .form-txt{
     color: #CBCBCB;
-    font-size: 0.574rem;
-    margin: 0.718rem 0;
+    font-size: 0.32rem;
+    margin: 0.4rem 0;
+    display: block;
 }
 
 .popup-form-btn{
     width: 100%;
-    height: 2.274rem;
+    height: 1.2rem;
     margin: 0 auto;
     display: block;
     border: 0;
     outline: none;
     background: #1B1A22;
     border-radius: 5px;
-    margin-top: 0.479rem;
     color: #FAD502;
-    font-size: 0.814rem;
-    margin-bottom: 1rem;
+    font-size: 0.43rem;
+    text-align: center;
+    line-height: 1.2rem;
 }

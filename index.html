@@ -60,7 +60,7 @@
                     <form action="">
                         <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input" maxlength="11" oninput="telOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <input class="two-form-input position-input" maxlength="11" oninput="telOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
                             <span class="form-must" id="formMust">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
@@ -128,7 +128,7 @@
                     <form action="">
                         <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input" maxlength="11" oninput="telOnclickTwo(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <input class="two-form-input position-input" maxlength="11" oninput="telOnclickTwo(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
                             <span class="form-must" id="formMustTwo">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
@@ -196,15 +196,16 @@
                     <li>政府高校</li>
                 </ul>   
                 <div class="popup-form">
-                    <form action="">
-                        <input class="popup-form-input nameInput" type="text" placeholder="您的称呼">
-                        <div class="two-input-box">
-                            <input class="popup-form-input" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
-                            <span class="form-must" id="formMustPopup">(必填)</span>
-                        </div>
-                        <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
-                        <input type="submit" value="免费领取方案和试用账号" class="popup-form-btn" />
-                    </form>
+                    <div class="two-input-box">
+                        <input class="popup-form-input position-input nameInput" type="text" placeholder="您的称呼">
+                    </div>
+                    <div class="two-input-box">
+                        <input class="popup-form-input position-input" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                        <span class="form-must" id="formMustPopup">(必填)</span>
+                    </div>
+                    <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
+                    <div class="popup-form-btn">免费领取方案和试用账号</div>
+          
                 </div>
             </div>
 
