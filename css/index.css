@@ -139,7 +139,7 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 }
 
 .two-head .two-h-txt{
-    width: 6.63rem;
+    width: 6.93rem;
     height: 0.51rem;
     color: #393939;
     font-size: 0.36rem;
@@ -583,6 +583,7 @@ textarea.two-form-area::-webkit-input-placeholder{
     font-size: 0.37rem;
     color: #8F8F8F;
     text-align: center;
+    margin-bottom: 0.57rem;
 }
 
 .sec-egh-ul{
