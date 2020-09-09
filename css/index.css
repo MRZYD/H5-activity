@@ -198,6 +198,7 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 .select-radio-box{
     width: 100%;
     padding-top: 0.36rem;
+    /* overflow: hidden; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -206,6 +207,7 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 .select-checkbox-li {
     width: 4rem;
     float: left;
+    height: 0.53rem;
     margin-bottom: 0.4rem;
     font-size: 0.37rem;
     color: #FF484F;
@@ -215,11 +217,13 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 
 .select-radio-li {
     margin-bottom: 0.4rem;
+    height: 0.53rem;
     font-size: 0.37rem;
     color: #FF484F;
     display: inline-flex;
     align-items: center;
-    margin-right: 0.8rem;
+    /* float: left; */
+    margin-right: 0.52rem;
 }
 
 .select-radio-li:nth-child(3n){
@@ -227,20 +231,20 @@ body,html{width:100%;height:100%;overflow-x: hidden;font-family: "微软雅黑";
 }
 
 input.checkbox[type="checkbox"], input.radio[type="radio"]{
-    width:0rem;
-    height:0rem;
+    width:0.25rem;
+    height:0.25rem;
     display: inline-block;
     text-align: center;
     vertical-align: middle; 
     line-height: 0.67rem;
     position: relative;
-    margin: 0 0.32rem 0 0.23rem;
+    margin: 0.05rem 0.3rem 0.05rem 0.23rem;
 }
 input.checkbox[type="checkbox"]::before, input.radio[type="radio"]::before{
     content: "";
     position: absolute;
-    top: -0.2rem;
-    left: -0.2rem;
+    top: -0.1rem;
+    left: -0.1rem;
     background: #fff;
     width: 0.37rem;
     height: 0.37rem;
@@ -251,18 +255,19 @@ input.checkbox[type="checkbox"]:checked::before, input.radio[type="radio"]:check
     content: "\2022";
     background-color: #fff;
     position: absolute;
-    top: -0.2rem;
-    left: -0.2rem;
+    top: -0.1rem;
+    left: -0.1rem;
     width:0.37rem;
     height: 0.37rem;
     border: 1px solid #FF484F;
     color:#FF484F;
-    font-size: 35px;
-    line-height: 11rem;
+    font-size: 1rem;
+    line-height: 0.45rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
+    border-radius: 100%;
+    /* align-items: center; */
 }
 
 .two-form{
@@ -285,6 +290,7 @@ input.checkbox[type="checkbox"]:checked::before, input.radio[type="radio"]:check
     outline: none;
     margin-bottom: 0.27rem;
     font-size: 0.37rem;
+    border-radius: 5px;
 }
 
 .position-input{
@@ -321,6 +327,7 @@ input.two-form-input::-webkit-input-placeholder{
     font-size: 0.37rem;
     font-family: "微软雅黑";
     margin-top: 0.27rem;
+    border-radius: 5px;
 }
 
 textarea.two-form-area::-webkit-input-placeholder{
@@ -807,6 +814,10 @@ textarea.two-form-area::-webkit-input-placeholder{
 
 input.popup-form-input::-webkit-input-placeholder{
     color:#6D7686;
+}
+
+.popup-must{
+    border: 1px solid rgba(0, 0, 0, 0)
 }
 
 .form-txt{

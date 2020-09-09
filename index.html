@@ -28,7 +28,7 @@
                 <p class="banner-txt banner-txt-top">独立品牌，专属域名</p>
                 <p class="banner-txt">私有部署，量身定制，开放源代码</p>
                 <p class="banner-txt">支持APP/小程序/H5网校和PC网校切换</p>
-                <button  class="banner-btn" onclick="openPopup()">免费获取试用账号</button>
+                <div  class="banner-btn" onclick="openPopup()">免费获取试用账号</div>
             </div>  
             <div class="section-one">
                 <div class="one-head">
@@ -54,14 +54,39 @@
                 </div>
                 <div class="two-sec">
                     <h5 class="select-tit">您想通过268网校解决哪些问题？<span>*</span></h5>
-                    <div class="select-box" id="selectPath"></div>
+                    <div class="select-box" id="selectPath">
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            直播引流(招生)
+                        </div>
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            售卖录播课程
+                        </div>
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            直播带货(变现)
+                        </div>
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            直播开课培训
+                        </div>
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            综合都有
+                        </div>
+                        <div class='select-checkbox-li'>
+                            <input class='checkbox' type='checkbox' name='path'>
+                            其他需求
+                        </div>
+                    </div>
                 </div>
                 <div class="two-form">
                     <form action="">
                         <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
                             <input class="two-form-input position-input" maxlength="11" oninput="telOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
-                            <span class="form-must" id="formMust">(必填)</span>
+                            <span class="form-must formMust" id="formMust">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
                         <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
@@ -122,14 +147,21 @@
                 </div>
                 <div class="two-sec">
                     <h5 class="select-tit">您在做什么类型的培训？<span>*</span></h5>
-                    <div class="select-radio-box" id="selectTrain"></div>
+                    <div class="select-radio-box" id="selectTrain">
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>金融会计</span>
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>语言培训</span>
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>职业培训</span>
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>K12培训</span>
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>企业内训</span>
+                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>其他场景</span>
+                    </div>
                 </div>
                 <div class="two-form">
                     <form action="">
                         <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
                             <input class="two-form-input position-input" maxlength="11" oninput="telOnclickTwo(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
-                            <span class="form-must" id="formMustTwo">(必填)</span>
+                            <span class="form-must formMustTwo" id="formMustTwo">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
                         <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
@@ -176,13 +208,15 @@
                     <img src="./img/kefu-icon.png" alt="">
                     <span>在线咨询</span>
                 </div>
-                <div class="sec-btn-box btn-blue">
+                <div class="sec-btn-box btn-blue" onclick="openPopup()">
                     <img src="./img/person-icon.png" alt="">
-                    <span onclick="openPopup()">免费体验</span>
+                    <span>免费体验</span>
                 </div>
             </div>
         </section>
-        <div class="form-popup-bg" id="popupBg">
+
+        <!-- 弹窗 -->
+        <div class="form-popup-bg popupBg" id="popupBg">
             <div class="form-popup-sec">
                 <img class="close-icon" onclick="closePopup()" src="./img/popup-close-icon.png" alt="关闭">
                 <h2 class="popup-title">在线开通 免费体验</h2>
@@ -201,7 +235,7 @@
                     </div>
                     <div class="two-input-box">
                         <input class="popup-form-input position-input" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
-                        <span class="form-must" id="formMustPopup">(必填)</span>
+                        <span class="form-must popup-must formMustPopup">(必填)</span>
                     </div>
                     <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
                     <div class="popup-form-btn">免费领取方案和试用账号</div>
