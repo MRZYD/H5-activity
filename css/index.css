@@ -841,3 +841,36 @@ input.popup-form-input::-webkit-input-placeholder{
     text-align: center;
     line-height: 1.2rem;
 }
+
+.two-input-box{
+    width: 100%;
+    height: 1.12rem;
+    position: relative;
+}
+
+.two-form-input {
+    width: 90%;
+    height: 1.12rem;
+    background: #F2F2F2;
+    color: #333;
+    padding: 0 5%;
+    border: 0;
+    outline: none;
+    margin-bottom: 0.27rem;
+    font-size: 0.37rem;
+    border-radius: 5px;
+}
+
+.position-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two-input-box .popup-form-input.position-input{
+    margin: 0;
+}
+
+input.two-form-input::-webkit-input-placeholder{
+    color:#BDBDBD;
+}

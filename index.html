@@ -2,7 +2,9 @@
 <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
-        <title>H5活动</title>
+        <title>网校点播/直播课堂/在线教育网校系统-268网校系统</title>
+        <meta name="keywords" content="网校系统，搭建网校，网校源码，教育软件，直播教学，授课讲课软件，在线教育，网校平台，网校源码">
+	    <meta name="description" content="【268网校系统-在线网校一站式技术服务商】涵盖网校直播/录播课程/互动班级/教学管理/助学工具/推广营销等,为各类培训机构提供领先的在线网校平台方案服务。">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
         <!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核 ================================================== -->
         <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
@@ -15,10 +17,15 @@
         <!-- !!!注意 minimal-ui 是IOS7.1的新属性，最小化浏览器UI -->
         <meta name="format-detection" content="telephone=no,email=no,date=no,aItemress=no">
         <!-- MSUI CSS ================================================== -->
-        <!-- <link rel="stylesheet" href="https://static.268xue.com/front/mobile/v3/wmui/0.6.2/css/wm.min.css?v=1598349572754"> -->
-        <!-- <link rel="stylesheet" href="https://static.268xue.com/front/mobile/v3/wmui/0.6.2/css/wm-extend.min.css?v=1598349572754"> -->
-        <link rel="stylesheet" href="./css/public.css">
-        <link rel="stylesheet" href="./css/index.css">
+        <!-- CSS
+	    ================================================== -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/flexible.debug.js"></script>
     </head>
     <body>
         <section class="section">
@@ -83,13 +90,13 @@
                 </div>
                 <div class="two-form">
                     <form action="">
-                        <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
+                        <input class="two-form-input nameInput " oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input position-input" maxlength="11" oninput="telOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
-                            <span class="form-must formMust" id="formMust">(必填)</span>
+                            <input class="two-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 1)" type="text" placeholder="您的手机号">
+                            <span class="form-must formMustOne" id="formMustOne">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
-                        <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
+                        <div onclick="formBtn(1)" class="two-form-btn">免费领取方案和试用账号</div>
                     </form>
                 </div>
             </div>
@@ -158,13 +165,13 @@
                 </div>
                 <div class="two-form">
                     <form action="">
-                        <input class="two-form-input nameInput" type="text" placeholder="您的称呼">
+                        <input class="two-form-input nameInput" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input position-input" maxlength="11" oninput="telOnclickTwo(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                            <input class="two-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 2)" type="text" placeholder="您的手机号">
                             <span class="form-must formMustTwo" id="formMustTwo">(必填)</span>
                         </div>
                         <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
-                        <div onclick="openPopup()" class="two-form-btn">免费领取方案和试用账号</div>
+                        <div onclick="formBtn(2)" class="two-form-btn">免费领取方案和试用账号</div>
                     </form>
                 </div>
             </div>
@@ -231,14 +238,14 @@
                 </ul>   
                 <div class="popup-form">
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input nameInput" type="text" placeholder="您的称呼">
+                        <input class="popup-form-input position-input nameInput" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                     </div>
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''))" type="text" placeholder="您的手机号">
+                        <input class="popup-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 3)" type="text" placeholder="您的手机号">
                         <span class="form-must popup-must formMustPopup">(必填)</span>
                     </div>
                     <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
-                    <div class="popup-form-btn">免费领取方案和试用账号</div>
+                    <div onclick="formBtn(3)" class="popup-form-btn">免费领取方案和试用账号</div>
           
                 </div>
             </div>
