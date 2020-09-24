@@ -64,38 +64,38 @@
                     <div class="select-box" id="selectPath">
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            直播引流(招生)
+                            <span>直播引流(招生)</span>
                         </div>
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            售卖录播课程
+                            <span>售卖录播课程</span>
                         </div>
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            直播带货(变现)
+                            <span>直播带货(变现)</span>
                         </div>
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            直播开课培训
+                            <span>直播开课培训</span>
                         </div>
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            综合都有
+                            <span>综合都有</span>
                         </div>
                         <div class='select-checkbox-li'>
                             <input class='checkbox' type='checkbox' name='path'>
-                            其他需求
+                            <span>其他需求</span>
                         </div>
                     </div>
                 </div>
                 <div class="two-form">
                     <form action="">
-                        <input class="two-form-input nameInput " oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
+                        <input class="two-form-input nameInput" id="userName1" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 1)" type="text" placeholder="您的手机号">
+                            <input class="two-form-input position-input telInput" id="userTel1" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 1)" type="text" placeholder="您的手机号">
                             <span class="form-must formMustOne" id="formMustOne">(必填)</span>
                         </div>
-                        <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
+                        <textarea class="two-form-area areaText" type="text" oninput="textArea(value)" placeholder="描述下您的需求" rows="3"></textarea>
                         <div onclick="formBtn(1)" class="two-form-btn">免费领取方案和试用账号</div>
                     </form>
                 </div>
@@ -155,22 +155,22 @@
                 <div class="two-sec">
                     <h5 class="select-tit">您在做什么类型的培训？<span>*</span></h5>
                     <div class="select-radio-box" id="selectTrain">
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>金融会计</span>
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>语言培训</span>
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>职业培训</span>
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>K12培训</span>
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>企业内训</span>
-                        <span class='select-radio-li'><input class='radio' type='radio' name='path'>其他场景</span>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>金融会计</span></div>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>语言培训</span></div>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>职业培训</span></div>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>K12培训</span></div>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>企业内训</span></div>
+                        <div class='select-radio-li'><input class='radio' type='radio' name='path'><span>其他场景</span></div>
                     </div>
                 </div>
                 <div class="two-form">
                     <form action="">
-                        <input class="two-form-input nameInput" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
+                        <input class="two-form-input nameInput" id="userName2" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                         <div class="two-input-box">
-                            <input class="two-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 2)" type="text" placeholder="您的手机号">
+                            <input class="two-form-input position-input telInput" id="userTel2" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 2)" type="text" placeholder="您的手机号">
                             <span class="form-must formMustTwo" id="formMustTwo">(必填)</span>
                         </div>
-                        <textarea class="two-form-area" type="text" placeholder="描述下您的需求" rows="3"></textarea>
+                        <textarea class="two-form-area areaText" type="text" oninput="textArea(value)" placeholder="描述下您的需求" rows="3"></textarea>
                         <div onclick="formBtn(2)" class="two-form-btn">免费领取方案和试用账号</div>
                     </form>
                 </div>
@@ -212,8 +212,10 @@
             </div>
             <div class="section-btn">
                 <div class="sec-btn-box btn-red">
-                    <img src="./img/kefu-icon.png" alt="">
-                    <span>在线咨询</span>
+                    <a class="zx-btn" href="https://tb.53kf.com/code/client/e49613946bf78d7197f3af52fac2e1986/1">
+                        <img src="./img/kefu-icon.png" alt="">
+                        <span>在线咨询</span>
+                    </a>
                 </div>
                 <div class="sec-btn-box btn-blue" onclick="openPopup()">
                     <img src="./img/person-icon.png" alt="">
@@ -238,10 +240,10 @@
                 </ul>   
                 <div class="popup-form">
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input nameInput" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
+                        <input class="popup-form-input position-input nameInput" id="userName3" oninput="namePopupOnclick(value)" type="text" placeholder="您的称呼">
                     </div>
                     <div class="two-input-box">
-                        <input class="popup-form-input position-input telInput" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 3)" type="text" placeholder="您的手机号">
+                        <input class="popup-form-input position-input telInput" id="userTel3" maxlength="11" oninput="telPopupOnclick(value=value.replace(/[^\d]/g,''), 3)" type="text" placeholder="您的手机号">
                         <span class="form-must popup-must formMustPopup">(必填)</span>
                     </div>
                     <span class="form-txt">(您的信息仅用于268网校注册试用，将严格保密)</span>
